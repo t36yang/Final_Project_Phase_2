@@ -4,20 +4,20 @@ Pic: Mountains in King County
 ![king-county-mountain](https://user-images.githubusercontent.com/117051182/206802107-e8870cc3-7edf-4cdf-827e-a0ef0710cfc6.jpeg)
 
 ## Business Problem
-As a result of the increasing demand for purchasing vacation homes following the pandemic, FS Real Estate data analytics team conducted a data analysis over the vacationing house sales for the King County area. The analysis aims to answer the following questions for vacation home buyers:
+As a result of the increasing demand for purchasing vacation homes following the pandemic, the FS Real Estate data analytics team conducted a data analysis over the vacation house sales for the King County area. The analysis aims to answer the following questions for vacation home buyers:
 * What kind of house should they buy？
 * What renovations are needed to increase the estimated value of their vacation homes
-* What is the best price to purchase?
+* What is a best price to purchase?
 
 Below are the filters used for selecting vacation homes in the dataset:
 *Scenic view, close to waterfront, or greenbelt
 *Decent house grade and condition that doesn't require lots of maintenance.
 
 ## Stakeholder
-All Vacation Home Buyers who are interested in the King County Area.
+All vacation home buyers who are interested in the King County Area.
 
 ## Dataset
-The dataset was provided by the FS Real Estate research department that covers all the sales of houses in the King County area for the period of 2021 and 2022. Houses above 5 million and below 200k dollars, number of bathrooms below one are identified as outliers. After the outliers have been removed, there are in total 3925 of sales records that satisfy the vacation home criteria. Details of the dataset can be found in the “data” folder.
+The dataset was provided by the FS Real Estate research department that covers all the sales of houses in the King County area for the period of 2021 and 2022. The houses that were above 5 million, below 200k dollars, and less than one bathroom were identified as outliers. After the outliers were removed, there were a total 3925 of sales records that satisfied the vacation home criteria. Details of the dataset can be found in the “data” folder.
 
 ## Variables and Metrics
 The **Dependent Variable** is **Vacation Housing Sale Price**.
@@ -26,15 +26,15 @@ The prediction model is expected to use independent variables to predict the dep
 **Metrics:** Price, House Ranking scores (Grade and Condition), External Environment scores (waterfront, greenbelt, view). 
 
 ## First-look of Data Analysis
-Before we jump to the prediction model, FS Real Estate data team conducted an initial analysis to examine the correlations between three key factors (grade, sqft living, zipcode) and sales price to establish an overview of the housing market. 
+Before we jump to the prediction model, the FS Real Estate data team conducted an initial analysis to examine the correlations between three key factors (grade, sqft living, zipcode) and the sales price to establish an overview of the housing market. 
 
 #### Overview of Price distribution for vacation homes
-The average price of vacation homes in King County is around 1.4 million. This distribution shows a right skewed trend towards the pricey range, therefore there are more houses for sale in the middle to lower range of price.
+The average price of vacation homes in King County is around $1.4 million. This distribution shows a right-skewed trend towards the pricey range, therefore there are more houses for sale in the middle to lower range of price.
 
 ![barplot price count distribution](https://user-images.githubusercontent.com/117051182/206803464-135a7906-1577-4c0d-a2e5-8ddb58e715f5.png)
 
 #### Price vs Grade
-Price and housing grade has a positive correlation the higher grade of the house the more expensive. Home buyers may use this information to search for a house in the home grade that aligns with their budget. 
+Price and housing grade have a positive correlation the higher grade of the house, the more expensive it is. Home buyers may use this information to search for a house in the grade that aligns with their budget. 
 
 ![Pricevs Grade](https://user-images.githubusercontent.com/117051182/206803538-3382d225-ccb3-40a0-af8e-9301ad2979f3.png)
 
