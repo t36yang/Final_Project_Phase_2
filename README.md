@@ -1,5 +1,6 @@
 # Price Prediction for Vacation Houses in King County, WA 
 Author: Vickie Yang
+Pic: Mountains in King County
 ![king-county-mountain](https://user-images.githubusercontent.com/117051182/206802107-e8870cc3-7edf-4cdf-827e-a0ef0710cfc6.jpeg)
 
 ## Business Problem
@@ -78,6 +79,10 @@ Testing data R^2 score：0.6646713605192298
 **Sixth run - add back all columns except id, date, price and log price**
 **Training data R^2 score: 0.8318420740595907**
 **Testing data R^2 score：0.834621013913642**
+
+Regression Model line
+
+![yelowregression ](https://user-images.githubusercontent.com/117051182/206884502-78033498-10cd-41bd-97ec-1748832647f4.png)
 
 The best score from the model testing was achieved in the sixth run, 83% accuracy. 
 However, the model predicts better result for houses under 2.5 m, as accuracy faded due to less data points in the high end market. 
