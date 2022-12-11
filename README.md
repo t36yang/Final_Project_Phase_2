@@ -3,9 +3,9 @@ Author: Vickie Yang
 ![king-county-mountain](https://user-images.githubusercontent.com/117051182/206802107-e8870cc3-7edf-4cdf-827e-a0ef0710cfc6.jpeg)
 
 ## Business Problem
-As a result of the increasing demand in purchasing vacation homes following the pandemic, FS Real Estate data analytics team conducted a data analysis over the vacationing house sales for the King County area. The analysis aims to answer the following questions for vacation home buyers:
-* What kind of house to buy？
-* What renovations are needed for increasing the estimated value of their vacation homes? 
+As a result of the increasing demand for purchasing vacation homes following the pandemic, FS Real Estate data analytics team conducted a data analysis over the vacationing house sales for the King County area. The analysis aims to answer the following questions for vacation home buyers:
+* What kind of house should they buy？
+* What renovations are needed to increase the estimated value of their vacation homes
 * What is the best price to purchase?
 
 Below are the filters used for selecting vacation homes in the dataset:
